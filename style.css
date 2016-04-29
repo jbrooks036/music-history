@@ -1,0 +1,39 @@
+#navbar {
+	background: #FFB4B0;
+	font-size: 100%;
+	color: blue;
+  width: 530px;
+	padding:10px;
+  margin:10px;
+  border-width:2px;
+  border:2px solid black;
+}
+
+#choose-panel {
+	font-size: 100%;
+	padding: 20px;
+  background-color:#4DD7FA;
+  height:300px;
+  width:175px;
+  float:left;
+  padding:10px; 
+  margin:10px;
+  border:2px solid black;
+}
+
+#song-list {
+	background: #FEFAC0;
+	color: #785616;
+	font-size: 100%;
+  height:300px;
+  width:300px;
+  float:left;
+  padding:10px;
+  margin:10px;
+  border:2px solid black;
+}
+
+#display-body {
+  display: inline;
+  /*overflow:hidden;*/
+}
