@@ -18,17 +18,22 @@
     <section id="choose-panel">
       <h2> Choose Panel </h2>
       <div id="artist">
-        <select>
-          <option value="earl-scruggs">Earl Scruggs</option>
+        <label for="select-artist">Select Artist</label>
+        <select id="select artist">
+           <option value="earl-scruggs">Earl Scruggs</option>
           <option value="lester-flatt">Lester Flatt</option>
         </select>
       </div>
-      <div id="song-title">
+      <br>
+      <label for="select-song-title">Select Album</label>
+      <div id="album-title">
         <select>
           <option value="little-maggie">Little Maggie</option>
           <option value="old-joe-clark">Old Joe Clark</option>
         </select>
       </div>
+      <br>
+      <button type="button">Filter</button>
     </section>
 
     <section id="song-list">
@@ -36,15 +41,16 @@
       <!-- <div> -->
         <section>
           <h3>Song 1</h3> 
-          <p>Artist Name   |   Album Name</p> 
+          <p id="song1-details"> <span id="artist1-name">Artist1 Name </span>   |   <span id="album1-name">Album2 Name </span></p> 
           <h3>Song 2</h3>
-          <p>Artist Name   |   Album Name</p> 
+          <p id="song2-details"> <span id="artist2-name">Artist2 Name </span>   |   <span id="album2-name">Album2 Name </span></p> 
           <h3>Song 3</h3>
-          <p>Artist Name   |   Album Name</p> 
+          <p id="song3-details"> <span id="artist3-name">Artist3 Name </span>   |   <span id="album3-name">Album3 Name </span></p> 
         </section>
       <!-- </div> -->
     </section>
- </div>
+
+  </div>
 
 </body>
 </html>
